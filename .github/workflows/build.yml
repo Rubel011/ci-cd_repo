@@ -3,6 +3,6 @@ jobs:
     first-job: 
         runs-on: windows-latest, macos-latest, ubuntu-latest
         steps:
-              -run: npm --version
-              -run: node --version
+            - run: node --version
+            - run: npm --version
               
