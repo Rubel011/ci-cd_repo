@@ -5,7 +5,8 @@ jobs:
         steps:
             - run: node --version
             - run: npm --version
+            # - run: install Node.js
             # - uses: actions/checkout@v3
-            - run: node install
+            # - run: node index.js
             - run: node -v
               
