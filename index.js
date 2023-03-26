@@ -1,6 +1,3 @@
 const shortid=require("shortid")
-console.log(shortid.generate());
-if(true){
-    
-}
-console.log("hello");
+console.log(shortid.generate())
+console.log("hello")
