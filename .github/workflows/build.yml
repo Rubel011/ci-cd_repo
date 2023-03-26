@@ -1,10 +1,11 @@
 on: push
 jobs:
-    second-job: 
-        runs-on: ubuntu-latest
+    first-job: 
+        runs-on: windows-latest
         steps:
             - run: node --version
             - run: npm --version
-            - uses: actions/checkout@v3
-            - run: node index.js
+            # - uses: actions/checkout@v3
+            # - run: npm install
+            # - run: node index.js
               
