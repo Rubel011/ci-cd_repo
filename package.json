@@ -1,0 +1,23 @@
+{
+  "name": "ci_cd_repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rubel011/ci-cd_repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rubel011/ci-cd_repo/issues"
+  },
+  "homepage": "https://github.com/Rubel011/ci-cd_repo#readme",
+  "dependencies": {
+    "shortid": "^2.2.16"
+  }
+}
