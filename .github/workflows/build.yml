@@ -14,7 +14,7 @@ jobs:
       - name: display github variables values
         run: |
           echo "node_env: ${{secrets.NODE_ENV}}"
-          echo "node_env: $VALUE"
+          echo "node_env: ${{env.VALUE}}"
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
