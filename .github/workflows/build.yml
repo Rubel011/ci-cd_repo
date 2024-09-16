@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - master
-env:
-  VALUE: "Hello, World!"
+# env:
+#   VALUE: "Hello, World!"
 
 jobs:
   Explore-GitHub-Actions:
