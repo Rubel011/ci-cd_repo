@@ -13,11 +13,11 @@ jobs:
     steps:
       - name: Check out the repository code
         uses: actions/checkout@v4
-      - name: display github variables values
-        run: |
-          echo "NODE_ENV: ${{secrets.NODE_ENV}}"
-          echo "VALUE: ${{env.VALUE}}"
-          echo "VALUES: $VALUE"
+      # - name: display github variables values
+      #   run: |
+      #     echo "NODE_ENV: ${{secrets.NODE_ENV}}"
+      #     echo "VALUE: ${{env.VALUE}}"
+      #     echo "VALUES: $VALUE"
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
