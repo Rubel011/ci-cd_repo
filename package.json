@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,8 @@
   },
   "homepage": "https://github.com/Rubel011/ci-cd_repo#readme",
   "dependencies": {
-    "shortid": "^2.2.16"
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
   },
   "devDependencies": {
     "eslint": "^8.36.0"
