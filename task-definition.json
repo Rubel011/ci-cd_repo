@@ -1,5 +1,5 @@
 {
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:390402545082:task-definition/prod-task-definition:1",
+  "taskDefinitionArn": "arn:aws:ecs:ap-south-1:390402545082:task-definition/prod-task-definition:2",
   "containerDefinitions": [
     {
       "name": "prod-container",
@@ -16,10 +16,8 @@
       ],
       "essential": true,
       "environment": [],
-      "environmentFiles": [],
       "mountPoints": [],
       "volumesFrom": [],
-      "ulimits": [],
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
@@ -47,7 +45,7 @@
   "family": "prod-task-definition",
   "executionRoleArn": "arn:aws:iam::390402545082:role/ecsTaskExecutionRole",
   "networkMode": "awsvpc",
-  "revision": 1,
+  "revision": 2,
   "volumes": [],
   "status": "ACTIVE",
   "requiresAttributes": [
@@ -94,7 +92,7 @@
     "cpuArchitecture": "ARM64",
     "operatingSystemFamily": "LINUX"
   },
-  "registeredAt": "2024-09-18T01:40:38.412Z",
+  "registeredAt": "2024-09-18T04:47:19.856Z",
   "registeredBy": "arn:aws:iam::390402545082:root",
   "tags": []
 }
