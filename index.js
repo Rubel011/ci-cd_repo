@@ -23,7 +23,7 @@ app.get("/", async (req, res) => {
 app.use("/health-check", (req, res) => {
   res
     .status(200)
-    .send({ success: true, message: "Checking health...at ci/cd" });
+    .send({ success: true, message: "Checking health completed with 200" });
 });
 
 // Start the server
