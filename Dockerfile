@@ -10,7 +10,7 @@ RUN pnpm install
 
 # COPY pnpm-lock.yaml pnpm-lock.yaml
 
-# COPY .env .env
+COPY .env .env
 
 COPY index.js index.js
 

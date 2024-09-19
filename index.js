@@ -12,7 +12,7 @@ app.get("/", async (req, res) => {
   try {
     res.status(200).json({
       success: true,
-      message: "Server is running perfectly fine",
+      message: "Server is running perfectly fine---at ci/cd",
     });
   } catch (error) {
     res
@@ -21,7 +21,9 @@ app.get("/", async (req, res) => {
   }
 });
 app.use("/health-check", (req, res) => {
-  res.status(200).send({ success: true, message: "Checking health..." });
+  res
+    .status(200)
+    .send({ success: true, message: "Checking health...at ci/cd" });
 });
 
 // Start the server
