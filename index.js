@@ -12,7 +12,8 @@ app.get("/", async (req, res) => {
   try {
     res.status(200).json({
       success: true,
-      message: "Server is running perfectly fine---at ci/cd",
+      message:
+        "Server is running perfectly fine ---set up using the following buildx in ci/cd",
     });
   } catch (error) {
     res
